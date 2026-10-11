@@ -1,0 +1,18 @@
+Kickoff — Freenove FNK0115B, 4.3 inch
+
+Board: ESP32S3 Dev Module
+PSRAM: OPI PSRAM
+Flash Size: 16MB
+USB CDC On Boot: Enabled
+Partition Scheme: 16M Flash (3MB APP/9.9MB FATFS)
+
+Sketch: kickoff43\kickoff43.ino
+Prefs name is kick43.
+Use the Type-C port that shows up as CH340.
+
+Updates use https://github.com/stefi01/esp32-scoreboard
+Branch main. Folder ota. One repo for both screens.
+version.txt is shared.
+This board installs ota/kick_43.bin.
+The 7 inch board installs ota/kick_7.bin.
+The partition above has the second slot the update writes into.

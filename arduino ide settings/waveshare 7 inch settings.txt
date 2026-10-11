@@ -1,0 +1,24 @@
+Kickoff — Waveshare ESP32-S3-Touch-LCD-7
+
+Board: ESP32S3 Dev Module
+PSRAM: OPI PSRAM
+Flash Size: 16MB
+USB CDC On Boot: Disabled
+Partition Scheme: 16M Flash (3MB APP/9.9MB FATFS)
+
+Upload Speed: 921600
+USB Mode: Hardware CDC and JTAG
+Upload Mode: UART0 / Hardware CDC
+CPU Frequency: 240MHz (WiFi)
+Flash Mode: QIO 80MHz
+
+Slide the switch to UART1. The cable stays in the socket marked UART. Do not hold BOOT.
+Sketch: kickoff7\kickoff7.ino
+Prefs name is kick7. Not the Sunton 7 inch.
+
+Updates use https://github.com/stefi01/esp32-scoreboard
+Branch main. Folder ota. One repo for both screens.
+version.txt is shared.
+This board installs ota/kick_7.bin.
+The 4.3 board installs ota/kick_43.bin.
+Keep the partition above. It has the second slot the update writes into.

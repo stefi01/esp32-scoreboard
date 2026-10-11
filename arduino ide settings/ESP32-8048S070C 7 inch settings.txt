@@ -1,0 +1,12 @@
+In Tools, set:
+ESP32 S3 DEV MODULE
+
+IN PREFERENCES IN ARDUINO IDE:
+https://espressif.github.io/arduino-esp32/package_esp32_dev_index.json
+https://espressif.github.io/arduino-esp32/package_esp32_index.json
+
+
+Board: ESP32S3 Dev Module
+PSRAM: OPI PSRAM
+Flash Size: 16MB
+USB CDC On Boot: Enabled
